@@ -1,0 +1,20 @@
+Put your photos in this folder with exactly these names (JPG). Each one replaces
+the drawn figure on the website automatically. Any you skip keep their drawing.
+
+portrait.jpg              your profile photo (shown in black and white under your intro)
+paper-gesture.jpg         a figure from the IEEE Sensors Journal paper
+paper-voxscope.jpg        a figure or your SPICSCON presentation photo
+digital-communication.jpg TDM-FSK vs FDM-BPSK project
+image-scaling.jpg         bilinear interpolation project
+project-guardian.jpg      face-tracking turret
+smart-inventory.jpg       sensor grid and robotic arm
+comparator.jpg            4-bit comparator and sorter
+delivery-vehicle.jpg      secure delivery vehicle
+stethoscope.jpg           electronic stethoscope
+multivibrator.jpg         astable multivibrator
+schering-bridge.jpg       Schering bridge
+load-flow.jpg             six-bus load flow
+transformer.jpg           seven-tap transformer
+school-design.jpg         school electrical design
+
+Landscape photos (4:3 or 16:10) look best. Keep each under about 500 KB.
