@@ -163,12 +163,12 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border:0;border-radiu
 .gauge.wide .lab{text-align:left;font-size:15px;color:var(--ink);font-weight:600}
 .gauge.wide .sub{font-size:13px;color:var(--muted)}
 @media (max-width:520px){.gauge.wide{flex-direction:column;align-items:center}.gauge.wide .lab,.gmeta{text-align:center;align-items:center}}
-.led{grid-column:span 2;background:#030806;border-radius:14px;border:1px solid var(--rule);padding:16px 10px 14px;display:flex;flex-direction:column;align-items:center;gap:10px;position:relative}
-.led svg{height:58px;width:auto;max-width:100%;display:block;overflow:visible}
+.led{grid-column:span 3;background:#030806;border-radius:14px;border:1px solid var(--rule);padding:16px 10px 14px;display:flex;flex-direction:column;align-items:center;gap:10px;position:relative}
+.led svg{height:72px;width:auto;max-width:100%;display:block;overflow:visible}
 .led .on{fill:var(--ch);filter:drop-shadow(0 0 4px var(--ch))}
 .led .off{fill:rgba(255,255,255,.05)}
 .led .lab{font-size:13px;color:var(--muted);text-align:center}
-@media (max-width:520px){.gauge{grid-column:span 6}.led svg{height:40px}}
+@media (max-width:520px){.gauge{grid-column:span 6}.led svg{height:48px}}
 .screws{position:absolute;inset:0;pointer-events:none}
 .screws i{position:absolute;width:9px;height:9px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#7a8a82,#1e2a24);box-shadow:0 0 0 1px rgba(0,0,0,.5)}
 .screws i::after{content:"";position:absolute;left:1px;right:1px;top:4px;height:1px;background:#0d1511;transform:rotate(40deg)}
@@ -329,10 +329,10 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border:0;border-radiu
       </div>
       <div class="cluster" aria-label="Results at a glance">
         <div class="screws" aria-hidden="true"><i style="left:16px;top:16px"></i><i style="right:16px;top:16px"></i><i style="left:16px;bottom:16px"></i><i style="right:16px;bottom:16px"></i></div>
-        <div class="gauge wide c2"><svg viewBox="0 0 200 150" data-gauge="3.90" data-max="4" data-step=".5" role="img" aria-label="CGPA 3.90 of 4.00"></svg><div class="gmeta"><span class="val">3.90</span><span class="lab">CGPA of 4.00, B.Sc. EEE at MIST</span><span class="sub">Dean's List 2023 and 2024</span></div></div>
         <div class="led c1"><svg data-led="02" role="img" aria-label="2 papers"></svg><span class="lab">Papers</span></div>
         <div class="led c3"><svg data-led="12" role="img" aria-label="12 projects"></svg><span class="lab">Projects</span></div>
         <div class="led c2"><svg data-led="07" role="img" aria-label="7 leadership roles"></svg><span class="lab">Leadership roles</span></div>
+        <div class="led c4"><svg data-led="02" role="img" aria-label="Dean's List 2 years"></svg><span class="lab">Years on the Dean's List</span></div>
       </div>
     </div>
   </section>
@@ -389,7 +389,7 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border:0;border-radiu
     <div class="wrap">
       <div class="sec-h"><h2>Education</h2><p>Degrees, honours, and the tools I work with.</p></div>
       <div class="edu-grid">
-        <div class="degree main"><div style="display:flex;flex-direction:column;gap:10px;min-width:0"><span class="yrs">2023 – June 2027 (expected)</span><h3>B.Sc. in Electrical and Electronic Engineering</h3><span class="org">Military Institute of Science and Technology (MIST), Department of EECE</span></div><div class="score"><b>3.90</b><span>CGPA of 4.00</span></div></div>
+        <div class="degree main"><div style="display:flex;flex-direction:column;gap:10px;min-width:0"><span class="yrs">2023 – June 2027 (expected)</span><h3>B.Sc. in Electrical and Electronic Engineering</h3><span class="org">Military Institute of Science and Technology (MIST), Department of EECE</span></div><div class="score"><b>2027</b><span>expected graduation</span></div></div>
         <div class="degree minor"><h3>Higher Secondary Certificate, Science</h3><span class="org">Notre Dame College, Dhaka, GPA 5.00</span><span class="yrs">2020 – 2022</span></div>
       </div>
       <div class="honours">
